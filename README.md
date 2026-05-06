@@ -22,7 +22,7 @@
 
 | Login | Dashboard |
 |------|----------|
-| ![login](./screenshots/login.png) | ![dashboard](./screenshots/dashboard.png) |
+| ![login](./screenshots/login-new.png) | ![dashboard](./screenshots/dashboard.png) |
 
 ---
 

@@ -79,7 +79,7 @@ app.post("/login",async(req,res) => {
     //生成token
     const token = jwt.sign(
         {userId:user._id},
-        "secret123",
+        process.env.JWT_SECRET, // 不写死密钥，是为了避免敏感信息暴露，使用环境变量管理配置
         {expiresIn:"7d"}
     );
 
